@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Change Color for wave 1 to red"
+            android:background="@drawable/paybutton"
+              android:id="@+id/one"
+            android:layout_weight="1"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/two"
+            android:layout_weight="1"
+            android:text="Change Color for wave 2 to blue"
+            android:background="@drawable/paybutton"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:text="hide wave 1"
+            android:background="@drawable/paybutton"
+            android:id="@+id/three"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_width="158dp" />
+
+        <Button
+            android:id="@+id/four"
+            android:text="hide wave 2"
+            android:background="@drawable/paybutton"
+
+            android:layout_height="wrap_content"
+            android:layout_width="180dp" />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#000" >
+
+        <site.medic.visualizer.our_view
+            android:id="@+id/visualizerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </site.medic.visualizer.our_view>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.25"
+
+            android:background="@drawable/paybutton"
+            android:onClick="clearPressed"
+            android:text="Clear visualization" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:onClick="startPressed"
+            android:background="@drawable/custombuttn"
+            android:text="Start audio"
+            android:textStyle="normal|bold|italic">
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:onClick="stopPressed"
+            android:background="@drawable/custombuttn"
+            android:text="Stop audio"
+            android:textStyle="normal|bold|italic">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

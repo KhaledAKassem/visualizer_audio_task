@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/khaled/Desktop/visualizer_task/app/build/intermediates/res/merged/debug/drawable/custombuttn.xml",
+        "source": "/home/khaled/Desktop/visualizer_task/app/src/main/res/drawable/custombuttn.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/visualizer_task/app/build/intermediates/res/merged/debug/drawable/paybutton.xml",
+        "source": "/home/khaled/Desktop/visualizer_task/app/src/main/res/drawable/paybutton.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/visualizer_task/app/build/intermediates/res/merged/debug/drawable/bg.xml",
+        "source": "/home/khaled/Desktop/visualizer_task/app/src/main/res/drawable/bg.xml"
+    }
+]

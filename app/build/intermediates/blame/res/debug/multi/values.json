@@ -1,0 +1,38 @@
+[
+    {
+        "outputFile": "/home/khaled/Desktop/visualizer_task/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "/home/khaled/Desktop/visualizer_task/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 56,
+                        "endOffset": 153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endColumn": 44,
+                    "endOffset": 152
+                },
+                "from": {
+                    "file": "/home/khaled/Desktop/visualizer_task/app/src/main/res/values/strings.xml"
+                }
+            }
+        ]
+    }
+]
